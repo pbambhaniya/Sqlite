@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.multipz.sqllitedemo.NewActivity">
+
+
+    <CheckBox
+        android:id="@+id/cb_gujrati"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gujrati" />
+
+    <CheckBox
+        android:id="@+id/cb_hindi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hindi" />
+
+    <CheckBox
+        android:id="@+id/cb_english"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="English" />
+
+    <CheckBox
+        android:id="@+id/cb_marathi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Marathi" />
+
+    <CheckBox
+        android:id="@+id/cb_kannada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kannada" />
+
+
+</LinearLayout>
